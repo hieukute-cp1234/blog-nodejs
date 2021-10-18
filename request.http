@@ -1,0 +1,26 @@
+POST http://192.168.1.4:8000/api/blog
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNjE0YzNlOTk4ZDBhNjk0NWU3ZTQyM2FmIiwiaWF0IjoxNjM0NDA0NTE2LCJleHAiOjE2MzQ0OTA5MTZ9.hzLi1DcVwM76pwfS9wqpos3Y3bnvmWGTQZ8EJn96s28
+
+{
+  "content": "hôm nay trời đẹp quá!",
+  "author": "614c3e998d0a6945e7e423af"
+}
+
+###
+
+POST http://192.168.1.4:8000/api/login
+Content-Type: application/json
+
+{
+  "email": "minhtnc@gmail.com",
+  "password": "123456"
+}
+
+###
+
+DELETE http://192.168.1.4:8000/api/blog/6162deff8c13edd7b013a0ab
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNjE0YzNlOTk4ZDBhNjk0NWU3ZTQyM2FmIiwiaWF0IjoxNjMzODM2NzE5LCJleHAiOjE2MzM5MjMxMTl9.qo9GhkvrLS85hqTvkkIWvl5vfpCrLvYrDNkNhxr0kBA
+
+###
